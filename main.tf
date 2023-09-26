@@ -7,11 +7,6 @@ terraform {
   }
 }
 
-provider "aws" {
-  region     = "ap-south-1"
-  access_key = "AKIAXWR55YBZNA74XB66"
-  secret_key = "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"
-}
 
 // To Generate Private Key
 resource "tls_private_key" "rsa_4096" {
